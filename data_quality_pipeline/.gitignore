@@ -1,0 +1,35 @@
+# Environment & secrets
+.env
+*.env
+!.env.example
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Databases (generated at runtime)
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime data folders: keep the structure via .gitkeep, ignore the content
+data_input/*
+!data_input/.gitkeep
+scanned_papers/*
+!scanned_papers/.gitkeep
+data_processed/*
+!data_processed/.gitkeep
+data_quarantine/*
+!data_quarantine/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
